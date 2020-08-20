@@ -1,16 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/estilos.css">
 </head>
 <body>
 
-    <h2 class="estilo-paragrafo">Reprehenderit nulla elit consectetur non laboris.</h2>
-    <h2 class="estilo-paragrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis perferendis necessitatibus maxime iste at reiciendis praesentium non doloremque nam, delectus itaque natus deserunt explicabo. Quae nisi ratione ipsum quidem ut.</h2>
-    <h2 class="estilo-paragrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident quisquam porro modi, saepe nihil maiores numquam iusto. Suscipit a aliquid deserunt, non impedit consequuntur iste libero ipsum. Error, quam quaerat.</h2>
+    <h1 class="texto">Utilização do Bootstrap</h1>
+    <h1 id="texto1">Utilização do Bootstrap 2</h1>
+    <button onclick="alterar()">Alterar</button>
+
+    <script>
+        function alterar(){
+            document.getElementById("texto1").innerHTML="Novo Bootstrap"
+        }
+    </script>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col text-center">
+                coluna 1
+            </div>
+            <div class="col text-center">
+                coluna 2
+            </div>
+            <div class="col text-center">
+                coluna 3
+            </div>
+        </div>
+    </div>
+
+    <div class="row m-5">
+        <div class="col p-4">
+            1Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet incidunt vero ipsum asperiores harum id corrupti impedit dolore, et odit ex labore distinctio rem fuga est obcaecati voluptas aliquam? Facilis.
+        </div>
+        <div class="col p-4">
+            2Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet incidunt vero ipsum asperiores harum id corrupti impedit dolore, et odit ex labore distinctio rem fuga est obcaecati voluptas aliquam? Facilis.
+        </div>
+    </div>
+
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
 
 </body>
 </html>
