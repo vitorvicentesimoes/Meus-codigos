@@ -1,0 +1,17 @@
+.cor-fundo{
+    background-color: black;
+}
+.cor-do-card{
+    background-color: rgb(0, 209, 94) !important; 
+    /* !important pode ser tirado pois o estilos esta depois do bootstrap */
+}
+
+.btn-150px{
+    width: 150px;
+}
+.btn-200px{
+    width: 200px;
+}
+.btn-250px{
+    width: 250px;
+}
