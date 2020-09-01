@@ -1,0 +1,30 @@
+body{
+    color: gray;
+}
+
+.link_nav{
+    color: gray;
+}
+
+.link_nav:hover{
+    text-decoration: none;
+    color:orange;
+}
+
+.link_right_nav{
+    color: gray;
+}
+
+.link_right_nav:hover{
+    text-decoration: none;
+    color:orange;
+}
+
+.link_other_nav{
+    color: orange;
+}
+
+.link_other_nav:hover{
+    text-decoration: none;
+    color:orange;
+}
